@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_banco_douro/ui/home_screen.dart';
 import 'package:flutter_banco_douro/ui/login_screen.dart';
 
 void main() {
@@ -10,6 +11,12 @@ class BancoDouroApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: LoginScreen());
+    return MaterialApp(
+      routes: {
+        "login": (context) => const LoginScreen(),
+        "home": (context) => HomeScreen(),
+      },
+      initialRoute: "login",
+    );
   }
 }
