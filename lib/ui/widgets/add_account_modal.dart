@@ -3,7 +3,6 @@ import 'package:flutter_banco_douro/models/account.dart';
 import 'package:flutter_banco_douro/services/account_service.dart';
 import 'package:flutter_banco_douro/ui/styles/colors.dart';
 import 'package:uuid/uuid.dart';
-import 'package:flutter_banco_douro/ui/home_screen.dart';
 
 class AddAccountModal extends StatefulWidget {
   const AddAccountModal({super.key});
