@@ -28,7 +28,7 @@ class _AddAccountModalState extends State<AddAccountModal> {
         top: 16,
         bottom: MediaQuery.of(context).viewInsets.bottom,
       ),
-      child: Container(
+      child: SizedBox(
         height: MediaQuery.of(context).size.height * 0.75,
         width: MediaQuery.of(context).size.width * 1,
         child: SingleChildScrollView(
